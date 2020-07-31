@@ -1,0 +1,16 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+    "scripts": {
+    "start": "pm2 start index.js --name dev-server --watch --no-daemon"
+  },
+  "dependencies": {
+    "pm2": "^4.2.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
